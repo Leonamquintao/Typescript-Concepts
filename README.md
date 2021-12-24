@@ -9,7 +9,7 @@
 
 # Notes
 
-### Typescrip playground:
+### Typescript playground:
 
 `https://www.typescriptlang.org/play/`
 
@@ -21,7 +21,7 @@
 
 - Install Typescript compiler: `npm install -g typescript ts-node`;
 - Check installations status: `tsc --help`;
-- intall Prettier - Code Formatter;
+- Install Prettier - Code Formatter;
 - Go to Preferences (`cmd + ,`) > type: `format on save` mark checkbox to add formatting on save the file;
 - Format Prettier to use single quotes `(optional I prefer use single quotes instead of double)`;
   -- Go to Preferences (`cmd + ,`) > type: single quotes, scroll down and mark checkbox `Prettier: Single Quotes`.
