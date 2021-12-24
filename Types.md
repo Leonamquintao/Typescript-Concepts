@@ -1,6 +1,6 @@
 # Types
 
-Typescript wor strongly with Types. Studing this _typesystem_ it important then!
+Typescript wor strongly with Types. Studding this _typesystem_ it important then!
 
 ### Why do we care about types ?
 
@@ -13,14 +13,24 @@ Types allow other engineers to understand what values are flowing around our cod
   - number
   - boolean
   - string
-  - synbol
+  - symbol
   - void
   - undefined
   - null
 
 - **Object Types:**
 
-  - functons
+  - functions
   - arrays
   - objects
   - classes
+
+### Types Annotations
+
+Code we add to tell Typescript what type of value a variable will refer to.
+We developers tell Typescript the type.
+
+### Type Inference
+
+Typescript tries to figure out what types of value a variable refers to.
+Typescript guesses the type.
