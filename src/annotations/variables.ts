@@ -33,3 +33,34 @@ let point: { x: number, y: number } = {
 const logNumber: (i: number) => void = (i: number) => {
   console.log(i);
 };
+
+const json = '{"x": 10, "y": 20}';
+const coordinates: {x: number; y: number} = JSON.parse(json);
+
+const add = (a: number, b: number): number =>  {
+  return a + b; 
+};
+
+const subtract = (a: number, b: number): number =>  {
+  return a - b; 
+};
+
+const divide = (a: number, b: number): number =>  {
+  return a / b; 
+};
+
+const multiply = (a: number, b: number): number =>  {
+  return a * b; 
+};
+
+const logger = (message: string): void => {
+  console.log(message);
+};
+
+const throwError = (message: string): never => {
+  throw new Error(message);
+};
+
+const carMakers = ['Honda', 'Ford', 'GM', 'Fiat', 'Volkswagen'];
+const firstMaker = carMakers[0];
+const myCar = carMakers.pop();
